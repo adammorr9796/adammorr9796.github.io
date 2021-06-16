@@ -1,0 +1,64 @@
+td,table{
+        /*text-align: center;*/
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: center;
+}
+
+body{
+    /*width: 75%;*/
+    /*margin: auto;*/
+	font-family: Arial;/*Helvetica;/*TT Norms Pro; Arial Narrow, sans-serif;*/
+    font-size: 1.5vw;
+}
+
+.navrow{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-decoration: none;
+}
+
+.siteTitle {
+    color: #95A3A4;
+}
+
+.navlist{
+	/*list-style-type: none;*/
+	/*margin: auto;
+	padding: 0;
+	overflow: hidden;
+    text-decoration: none;*/
+}
+
+.navelem{
+    list-style-type: none;
+}
+
+.navelem a {
+    color: #40434E;
+    text-decoration: none;
+}
+
+.navelem a:hover {
+    color: #FE5F55;
+}
+
+.topbar{
+	margin: auto;
+    height: 7.5vw;
+    border-bottom: 0.15vw solid #95A3A4;
+    width: 90%;
+    /*background-color: #E2E8DD;*/
+}
+
+.topLogo{
+	width: 5vw;
+	height: 5vw;
+	border-radius: 50%; 
+	/*padding: 2px;*/
+	border: 0.25vw solid #95A3A4;
+}
+
+.pageContent {
+    width: 90%;
+}
